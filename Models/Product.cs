@@ -9,7 +9,7 @@ namespace Partial_View_Practice.Models
     public class Product
     {
         public int ID { get; set; }
-        public string Name { get; set; } 
+        public string Name { get; set; }
         public decimal Price { get; set; }
         public string SKU { get; set; }
         public int Quantity { get; set; }

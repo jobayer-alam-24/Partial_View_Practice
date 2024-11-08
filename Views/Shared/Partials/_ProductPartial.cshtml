@@ -1,0 +1,51 @@
+@model List<Product>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Table</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Product Details</h2>
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>SKU</th>
+                    <th>Quantity</th>
+                    <th>Publish Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var product in Model)
+                {
+                    <tr>
+                    <td>@product.ID</td>
+                    <td>@product.Name</td>
+                    <td>$@product.Price</td>
+                    <td>@product.SKU</td>
+                    <td>@product.Quantity</td>
+                    <td>@product.PublishStaus</td>
+                    <td>
+                        <a href="~/Product/Details/@product.ID">
+                            <button class="btn btn-primary btn-sm">Edit</button>
+                        </a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

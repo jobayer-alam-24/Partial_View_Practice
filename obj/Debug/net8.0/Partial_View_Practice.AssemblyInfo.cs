@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Partial_View_Practice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f0ee06f2bee32ef13b08f1c58bedcb9421e525d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca8999005d8e246bad3a7a0022521a37342247c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Partial_View_Practice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Partial_View_Practice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
