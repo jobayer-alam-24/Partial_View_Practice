@@ -11,7 +11,7 @@ namespace Partial_View_Practice.Models
         public int ID { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public string Role { get; set; }
+        public Role Role { get; set; }
         public string CompanyName { get; set; }
         public ActiveStatus ActiveStatus { get; set; }
     }

@@ -14,4 +14,11 @@ namespace Partial_View_Practice.Enums
         Pending,
         Suspended   
     }
+    public enum Role
+    {
+        Manager,
+        MD,
+        DMD,
+        Admin   
+    }
 }
