@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Partial_View_Practice/1.0.0": {
+        "runtime": {
+          "Partial_View_Practice.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Partial_View_Practice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
